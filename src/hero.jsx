@@ -4,8 +4,8 @@ export default function Hero(){
         <div className="flex flex-col justify-between items-center p-10">
             <img src="/profile.jpeg" alt="profile" className="rounded-full w-40 h-40 object-cover" />
             <h1 className="text-4xl md:text-6xl font-bold dark:text-white mt-6">Hi, I’m Kwizera Yves </h1>
-            <h3 className="text-xl md:text-2xl text-gray-300 dark:text-gray-300 mt-2">Full-Stack Web Developer & Cybersecurity Enthusiast</h3>
-            <p className="text-base md:text-lg text-gray-300 dark:text-gray-300 text-center max-w-2xl mt-4">
+            <h3 className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mt-2">Full-Stack Web Developer & Cybersecurity Enthusiast</h3>
+            <p className="text-base md:text-lg text-gray-600 dark:text-gray-300 text-center max-w-2xl mt-4">
                I build secure, scalable, and modern web applications using React, Node.js, Express, and Tailwind CSS.
             </p>
             <div className="flex flex-row justify-center md:justify-between items-center gap-6 mt-6">

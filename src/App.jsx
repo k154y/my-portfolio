@@ -40,7 +40,7 @@ import Hero from "./hero";
   return (
     <>
     
-    <div className="min-h-screen bg-slate-700 text-slate-900  dark:bg-slate-700 ">
+    <div className="min-h-screen bg-blue-50 text-slate-900   dark:bg-slate-700 ">
     {/* <Ap /> */}
     < Navbar />
     <Hero />

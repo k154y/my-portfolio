@@ -1,7 +1,7 @@
 export default function Navbar(){
     return (
         <>
-        <nav className="sticky top-0 z-50 flex justify-between items-center bg-slate-700 text-white dark:bg-slate-700 dark:text-white px-6 py-4 font-semibold shadow-md">
+        <nav className="sticky top-0 z-50 flex justify-between items-center bg-blue-50 text-gray-900 dark:bg-slate-700 dark:text-white px-6 py-4 font-semibold shadow-md">
             <h2 className="text-xl">
                 Portfolio
             </h2>
