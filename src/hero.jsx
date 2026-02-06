@@ -9,8 +9,8 @@ export default function Hero(){
                I build secure, scalable, and modern web applications using React, Node.js, Express, and Tailwind CSS.
             </p>
             <div className="flex flex-row justify-center md:justify-between items-center gap-6 mt-6">
-                <button className="px-4 py-2 bg-blue-600 text-white rounded transition-colors duration-300 hover:bg-blue-800"> View Projects</button>
-                <button className="px-4 py-2 border border-gray-300 font-semibold rounded transition-colors duration-300 hover:bg-gray-100 hover:border-gray-400">Contact Me</button>
+                <button className="px-4 py-2 bg-blue-600 text-white rounded transition-colors duration-300 hover:bg-blue-800 active:bg-blue-900"> View Projects</button>
+                <button className="px-4 py-2 border border-gray-300 font-semibold rounded transition-colors duration-300 hover:bg-gray-500 hover:border-gray-400 active:bg-gray-100">Contact Me</button>
             </div>
         </div>
         </>
