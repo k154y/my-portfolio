@@ -36,6 +36,7 @@
 import Ap from "./Greeting";
 import Navbar from "./navbar";
 import Hero from "./hero";
+import About from "./about";
  export default function App(){
   return (
     <>
@@ -44,6 +45,7 @@ import Hero from "./hero";
     {/* <Ap /> */}
     < Navbar />
     <Hero />
+    <About />
     </div>
     </>
   )

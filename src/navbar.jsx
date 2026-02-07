@@ -17,7 +17,7 @@ export default function Navbar(){
 
     return (
         <>
-         <nav className="sticky top-0 z-50 flex justify-between items-center bg-white dark:bg-slate-800 text-gray-900 dark:text-white px-6 py-4 font-semibold shadow-lg border-b border-gray-200 dark:border-slate-700">
+         <nav className="sticky top-0 z-50 flex justify-between items-center bg-blue-100 dark:bg-slate-800 text-gray-900 dark:text-white px-6 py-4 font-semibold shadow-lg border-b border-gray-200 dark:border-slate-700">
             <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent dark:from-blue-400 dark:to-blue-600">
                 Portfolio
             </h2>
