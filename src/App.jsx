@@ -37,15 +37,17 @@ import Ap from "./Greeting";
 import Navbar from "./navbar";
 import Hero from "./hero";
 import About from "./about";
+import Projects from "./projects"
  export default function App(){
   return (
     <>
     
-    <div className="min-h-screen bg-blue-50 text-slate-900   dark:bg-slate-700 ">
+    <div className="min-h-screen bg-blue-50 text-slate-900   dark:bg-slate-800 ">
     {/* <Ap /> */}
     < Navbar />
     <Hero />
     <About />
+    <Projects />
     </div>
     </>
   )
