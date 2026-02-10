@@ -33,11 +33,12 @@
 // // }
 
 // // export default App
-import Ap from "./Greeting";
-import Navbar from "./navbar";
-import Hero from "./hero";
-import About from "./about";
-import Projects from "./projects"
+import Ap from "./components/Greeting";
+import Navbar from "./components/navbar";
+import Hero from "./components/hero";
+import About from "./components/about";
+import Projects from "./components/projects";
+import Skills from "./components/skills";
  export default function App(){
   return (
     <>
@@ -47,6 +48,7 @@ import Projects from "./projects"
     < Navbar />
     <Hero />
     <About />
+    <Skills />
     <Projects />
     </div>
     </>
