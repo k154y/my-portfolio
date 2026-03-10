@@ -1,6 +1,6 @@
 const express=require("express");
 const app=express();
-const port=3000;
+const port=5000;
 const projects=require("./routes/project");
 app.get("/an",(req,res)=>{
     res.send("hello world");
@@ -8,4 +8,4 @@ app.get("/an",(req,res)=>{
  app.listen(port,()=>{
     console.log(`leranig  on the port ${port}`);
  });
- app.use("/project",projects);
+ app.use("/",projects);
