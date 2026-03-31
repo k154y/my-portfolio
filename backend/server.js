@@ -11,13 +11,17 @@
 //  app.use("/project",projects);
 const express=require("express");
 const app=express();
-const path=require("path")
-const cv=path.resolve(__dirname,"public");
+const hero=require("./routes/hero.js");
+const path=require("path");
 const morgan=require("morgan");
 app.use(morgan("dev"));
-app.use(express.static(cv));
+
+app.get("/",(req,resp)=>{
+    resp.send("server working");
+});
+app.use("/hero",hero);
 
 
-app.listen(3000,()=>{
+app.listen(5000,()=>{
     console.log("server started...");
 });
